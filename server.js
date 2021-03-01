@@ -12,7 +12,7 @@ res.send("API running")
 );
 
 //Init middleware
-app.use(express.json({extended:false}));
+app.use(express.json({extended:false})); //this is used instead of bodyparser
 
 //define routes
 app.use("/api/users", require("./routes/api/users"));

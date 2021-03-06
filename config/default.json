@@ -1,5 +1,7 @@
 {
   "mongoURI":"mongodb+srv://admin-dipo:Ola@888880@cluster0.2qzao.mongodb.net/devconnectorDB",
-  "jwtToken" : "diposecret"
+  "jwtToken" : "diposecret",
+  "githubclientID":"b8979330a3dfc3e89b53",
+  "githubclientSecret":"cf72b683ed944721cd3c8e312613be2d0ab0c992"
 
 }

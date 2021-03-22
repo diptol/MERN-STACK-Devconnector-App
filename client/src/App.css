@@ -420,7 +420,7 @@ img {
 
 .landing {
   position: relative;
-  background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("../img/showcase.jpg") no-repeat center center/cover;
+  background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("./img/showcase.jpg") no-repeat center center/cover;
   height: 100vh;
 }
 
@@ -451,7 +451,10 @@ img {
 
 .profile-grid {
   display: grid;
-  grid-template-areas: "top top" "about about" "exp edu" "github github";
+  grid-template-areas: "top top"
+ "about about"
+ "exp edu"
+ "github github";
   grid-gap: 1rem;
 }
 
@@ -595,7 +598,11 @@ img {
     padding: 0.5rem;
   }
   .profile-grid {
-    grid-template-areas: "top" "about" "exp" "edu" "github";
+    grid-template-areas: "top"
+ "about"
+ "exp"
+ "edu"
+ "github";
   }
   .post {
     grid-template-columns: 1fr;
